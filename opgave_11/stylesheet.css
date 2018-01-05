@@ -1,0 +1,35 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+#prevImg {
+    position: absolute;
+    top:0;
+    left:0;
+    width:150px;
+    height:500px;
+    background-color:#eee;
+    cursor: pointer;
+    opacity:0.3;
+    background-image:url('http://www.i2symbol.com/images/symbols/brackets/left_angle_bracket_u3008_icon_256x256.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:150px 100px;
+}
+
+#nextImg {
+    position: absolute;
+    top:0;
+    left:0;
+    width:150px;
+    height:500px;
+    background-color:#eee;
+    cursor: pointer;
+    opacity:0.3;
+    background-image:url('http://www.i2symbol.com/images/symbols/brackets/right_angle_bracket_u3009_icon_256x256.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:150px 100px;
+    margin:0 0 0 950px;
+}

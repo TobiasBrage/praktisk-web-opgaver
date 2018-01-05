@@ -1,0 +1,95 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    outline:none;
+}
+
+body {
+    background-color:#eee;
+}
+
+main {
+    width:400px;
+    margin:50px auto 0 auto;
+    min-height:100px;
+}
+
+#chatContainer {
+    background-color:#ffffff;
+    border:1px solid #ddd;
+    border-radius:3px;
+    width:400px;
+    height:500px;
+    float:left;
+}
+
+#messageContainer {
+    width:380px;
+    float:left;
+    height:330px;
+    border-bottom:1px solid #ddd;
+    overflow-y:scroll;
+    padding:10px;
+}
+
+#messageName {
+    width:358px;
+    padding:8px;
+    float:left;
+    margin:10px 0 0 10px;
+    font-size:16px;
+    color:#555;
+    border:1px solid #ddd;
+    border-radius:3px;
+}
+
+#messageContent {
+    width:278px;
+    height:66px;
+    padding:8px;
+    float:left;
+    margin:10px 0 0 10px;
+    font-size:16px;
+    color:#555;
+    resize: none;
+    border:1px solid #ddd;
+    border-radius:3px;
+}
+
+#messageSubmit {
+    width:70px;
+    height:84px;
+    float:left;
+    margin:10px 0 0 10px;
+    font-size:16px;
+    color:#fff;
+    border:1px solid #88A574;
+    border-radius:3px;
+    background-color:#66AC5B;
+    cursor: pointer;
+}
+
+.messageSpan {
+    width:378px;
+    float:left;
+    height:auto;
+    margin:5px 0 5px 0;
+    color:#555;
+    font-size:16px;
+}
+
+.messageName {
+    float:left;
+    color:#000;
+    font-weight: bold;
+    padding:0 5px 0 0;
+    font-size:16px;
+}
+
+.messageTime {
+    float:left;
+    color:#999;
+    padding:1px 5px 0 0;
+    font-size:14px;
+}
